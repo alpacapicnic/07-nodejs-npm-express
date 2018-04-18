@@ -102,7 +102,13 @@ _Your README.md must include:_
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+04-17-2018 9:00pm - Tim driving, npm install
+
+04-17-2018 9:30pm - starting filing out server.js
+
+04-17-2018 9:00pm - 
+
+04-17-2018 9:00pm - 
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
