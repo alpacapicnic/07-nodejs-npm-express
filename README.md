@@ -106,7 +106,7 @@ _Your README.md must include:_
 
 04-17-2018 9:30pm - starting filing out server.js
 
-04-17-2018 9:00pm - 
+04-17-2018 10:30pm - server running 
 
 04-17-2018 9:00pm - 
 

@@ -4,10 +4,10 @@ const express = require('express');
 const PORT = process.env.PORT || 3000;
 let app = express();
 
-app.use(express.static('/public'));
+app.use(express.static('./public'));
 
 app.get('/new', (request, response) => {
-  response.sendFile('/new.html', {root: '/public'});
+  response.sendFile('new.html', {root: './public'});
 });
 
 // REVIEW: POST route needs to parse the body passed in with the request. express.urlencoded() attaches "middleware" to do that
