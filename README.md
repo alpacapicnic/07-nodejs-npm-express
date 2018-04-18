@@ -84,27 +84,37 @@ _Your repository must include:_
 ## Documentation
 _Your README.md must include:_
 
-```md
-# Project Name
 
-**Author**: Your Name Goes Here
+# Project Name: Lab 07 - NodeJS NPM Express
+
+**Author**: Tim McCoy and Earl Jay Caoile
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This program is hosted on a node server. It takes articles from a file that is either on a local database or user storage if the user has previous visited the page. It then lists the articles on the index page. On the new page, a user can create a new article to submit. That article is then saved as an object to be submitted to the back end.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+A user must download all of the files from our Github repository. NodeJS must also be installed and properly configured. In order to get the server running, a user must type out "node server.js".
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+This program uses HTML, CSS, and JavaScript. Libraries include jQuery, Marked, Highlight, and Handlebars.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+04-17-2018 9:00am - Tim driving, npm install
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+04-17-2018 9:30am - starting filing out server.js
+
+04-17-2018 10:30am - server running 
+
+04-17-2018 11:00am - switched driver to Earl Jay
+
+04-17-2018 11:10 - finished writing comments to articleView.js
+
+04-17-2018 11:20 - finished writing comments to article.js
+
+04-17-2018 11:30 - finished writing comments to server.js
+
+04-17-2018 11:44 - finished writing readme
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-```
+Thanks to Code Fellows, TAs, Google, and MDN docs.
