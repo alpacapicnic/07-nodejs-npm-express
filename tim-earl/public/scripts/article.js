@@ -50,7 +50,7 @@ Article.prototype.insertRecord = function (callback) {
       console.log(data);
 
       // COMMENT: What is the purpose of this line? Is the callback invoked when this method is called? Why or why not?
-      // The purpose of this line is to invoke the callback after the prototype method is finished creating a new article. The callback is invoked because the callback exists (defined as the input in the function above).
+      // The purpose of this line is to invoke the callback after the prototype method is finished creating a new article. The callback is invoked because the callback exists (defined as the input in the function above). However, the callback function currently does nothing.
       if (callback)
         callback();
     });
