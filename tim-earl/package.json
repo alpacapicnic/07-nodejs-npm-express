@@ -4,7 +4,7 @@
   "description": "Node Based Web Server",
   "main": "index.js",
   "scripts": {
-    "start": "node ./tim-earl/server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon server.js"
   },
